@@ -52,10 +52,10 @@ class App < Sinatra::Base
          "#{@number1 / @number2} "
       end 
       
-      @operation == "add" ? "#{@number1 + @number2}" :
-      @operation == "subtract" ? "#{@number1 - @number2}" :
-      @operation == "multiply" ? "#{@number1 * @number2}" :
-      @operation == "divide" ? "#{@number1 / @number2}" : ""
+      # @operation == "add" ? "#{@number1 + @number2}" :
+      # @operation == "subtract" ? "#{@number1 - @number2}" :
+      # @operation == "multiply" ? "#{@number1 * @number2}" :
+      # @operation == "divide" ? "#{@number1 / @number2}" : ""
   
     end 
 
